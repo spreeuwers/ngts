@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "System",
+        "moduleResolution": "node",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outFile": "../dist/domain.js"
+    },
+    "exclude": [
+        "node_modules",
+        "app"
+    ],
+
+    "files": [
+        "./domain.ts",
+        "../typings/index.d.ts"
+    ]
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<body>
+<div ng-controller="WelcomeController as welcome">
+    {{welcome.greeting}}
+</div>
+<script src="system.js"></script>
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="dist/app.js"></script>
+<script src="dist/domain.js"></script>
+<script>
+    System.import("domain")
+        .then(
+            (r)=>{
+                console.dir(r);
+                console.dir(window.domain);
+            },
+            (e)=> {
+                console.error(e);
+
+            }
+
+        );
+    System.import("initialize")
+        .then(
+            (m) =>{
+                console.log(m);
+                angular.bootstrap(document, ['demo']);
+                },
+            (e)=> {
+                console.error(e);
+
+            }
+            );
+
+</script>
+</body>
+</html>
+
+<!--<html ng-app="app">-->
+    <!--<head>-->
+        <!--<title>-->
+            <!--AngularJS + TypeScript Starter Kit-->
+        <!--</title>-->
+               <!--</script>-->
+    <!--</head>-->
+    <!--<body>-->
+        <!--<welcome></welcome>-->
+    <!--<script src="system.js"></script>-->
+        <!--<script src="node_modules/angular/angular.min.js"></script>-->
+        <!--<script src="dist/app.js">-->
+
+            <!--</body>-->
+<!--</html>-->

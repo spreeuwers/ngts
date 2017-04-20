@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ts-decorators": "0.0.36",
+    "express": "^4.14.0",
+    "systemjs": "^0.20.12"
+  },
+  "description": "AngularJS + TypeScript Starter Kit",
+  "repository": "test",
+  "license": "MIT",
+  "name": "angular-ts-start",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "tsc -w -p app && npm run start"
+  },
+  "version": "1.0.8"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sourceRoot":"","sources":["../app/Welcome.ts","../app/initialize.ts"],"names":[],"mappings":";;;;;;;YAAA;;eAEG;YACH,UAAA;gBAAA;oBAEI,aAAQ,GAAG,UAAU,CAAC;oBACtB,SAAI,GAAC,CAAC,CAAC;gBACX,CAAC;aAAA,CAAA;;QAAA,CAAC;;;;;;;;;;;;;;YCHE,GAAG,GAAG,OAAO,CAAC,MAAM,CAAC,MAAM,EAAE,EAAE,CAAC;iBAC/B,UAAU,CAAC,mBAAmB,EAAE,iBAAO,CAAC,CAAC;QAC9C,CAAC"}

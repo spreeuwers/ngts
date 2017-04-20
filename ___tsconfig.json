@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "System",
+        "moduleResolution": "node",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outFile": "dist/app.js"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+
+}
