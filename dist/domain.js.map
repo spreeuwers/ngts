@@ -1,1 +1,0 @@
-{"version":3,"file":"domain.js","sourceRoot":"","sources":["../domain/Persoon.ts","../domain/domain.ts"],"names":[],"mappings":";;;;;;;YACA,UAAA;gBAAA;oBAEI,SAAI,GAAG,QAAQ,CAAC;oBAChB,SAAI,GAAC,CAAC,CAAC;gBACX,CAAC;aAAA,CAAA;;QAAA,CAAC;;;;;;;;;;;;;;YCHF,OAAO,CAAC,GAAG,CAAC,eAAe,CAAC,CAAC;YACzB,MAAM,GAAG;gBACT,OAAO,EAAE,iBAAO;aACnB,CAAA;YAGD,oCAAoC;QAAA,CAAC"}

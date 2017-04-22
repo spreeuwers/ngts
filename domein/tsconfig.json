@@ -4,13 +4,18 @@
     "moduleResolution": "node",
     "target": "es6",
     "noImplicitAny": false,
-    "outFile": "../dist/app.js"
+    "inlineSourceMap": true,
+    "declaration": true,
+    "outFile": "../dist/domein.js",
+    "outDir":"./dist"
   },
+
   "exclude": [
     "node_modules",
-    "domein"
+    "app"
   ],
+
   "files": [
-    "./initialize.ts"
+    "./index.ts"
   ]
 }

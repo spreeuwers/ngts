@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@types/angular": "^1.6.15",
     "angular": "^1.6.4",
     "angular-ts-decorators": "0.0.36",
     "express": "^4.14.0",
@@ -13,7 +14,10 @@
   "readme": "ERROR: No README data found!",
   "scripts": {
     "start": "node server/server.js",
-    "dev": "tsc -w -p app && npm run start"
+    "dev": "tsc -w -p app && tsc -w -p domain && npm run start"
   },
-  "version": "1.0.8"
+  "version": "1.0.8",
+  "devDependencies": {
+    "@types/angular": "^1.6.15"
+  }
 }

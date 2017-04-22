@@ -5,34 +5,42 @@
     {{welcome.greeting}}
 </div>
 <script src="system.js"></script>
-<script src="node_modules/angular/angular.min.js"></script>
 <script src="dist/app.js"></script>
-<script src="dist/domain.js"></script>
+<script src="dist/domein.js"></script>
 <script>
-    System.import("domain")
+    SystemJS.config({
+        map: {
+            angular: "node_modules/angular/angular.min.js"
+        }
+    });
+    System.import("index")
         .then(
             (r)=>{
-                console.dir(r);
-                console.dir(window.domain);
+                //console.log('domain:', domain);
+                //console.log('person' , domain.Persoon);
+                loadAndBootAngular();
             },
             (e)=> {
-                console.error(e);
+                console.error.bind(console);
 
             }
 
         );
-    System.import("initialize")
-        .then(
-            (m) =>{
-                console.log(m);
-                angular.bootstrap(document, ['demo']);
+    function loadAndBootAngular() {
+
+
+        System.import("initialize")
+            .then(
+                (m) => {
+                    console.log(m);
+                    angular.bootstrap(document, ['demo']);
                 },
-            (e)=> {
-                console.error(e);
+                (e) => {
+                    console.error(e);
 
-            }
+                }
             );
-
+    }
 </script>
 </body>
 </html>
