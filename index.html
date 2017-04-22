@@ -6,14 +6,15 @@
 </div>
 <script src="system.js"></script>
 <script src="dist/app.js"></script>
-<script src="dist/domein.js"></script>
+<script src="compiled/domein/domein.js"></script>
+
 <script>
     SystemJS.config({
         map: {
             angular: "node_modules/angular/angular.min.js"
         }
     });
-    System.import("index")
+    System.import("initialize")
         .then(
             (r)=>{
                 //console.log('domain:', domain);
@@ -44,19 +45,3 @@
 </script>
 </body>
 </html>
-
-<!--<html ng-app="app">-->
-    <!--<head>-->
-        <!--<title>-->
-            <!--AngularJS + TypeScript Starter Kit-->
-        <!--</title>-->
-               <!--</script>-->
-    <!--</head>-->
-    <!--<body>-->
-        <!--<welcome></welcome>-->
-    <!--<script src="system.js"></script>-->
-        <!--<script src="node_modules/angular/angular.min.js"></script>-->
-        <!--<script src="dist/app.js">-->
-
-            <!--</body>-->
-<!--</html>-->

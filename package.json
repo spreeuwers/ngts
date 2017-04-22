@@ -14,7 +14,8 @@
   "readme": "ERROR: No README data found!",
   "scripts": {
     "start": "node server/server.js",
-    "dev": "tsc -w -p app && tsc -w -p domain && npm run start"
+    "dev": "tsc -w -p app && tsc -w -p domain && npm run start",
+    "install":"npm install ./compiled/domein"
   },
   "version": "1.0.8",
   "devDependencies": {

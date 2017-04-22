@@ -6,8 +6,8 @@
     "noImplicitAny": false,
     "inlineSourceMap": true,
     "declaration": true,
-    "outFile": "../dist/domein.js",
-    "outDir":"./dist"
+    "outFile": "../compiled/domein/domein.js",
+    "outDir":"./compiles/domein"
   },
 
   "exclude": [
@@ -16,6 +16,6 @@
   ],
 
   "files": [
-    "./index.ts"
+    "./domein.ts"
   ]
 }

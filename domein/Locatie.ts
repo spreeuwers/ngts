@@ -1,9 +1,8 @@
 
-export class Persoon {
+export class Locatie {
 
-    naam = 'jansen';
+    naam = 'utrecht';
     test=1;
-
 
     constructor(naam: string){
         this.naam = this.naam || naam;

@@ -1,16 +1,17 @@
-System.register("Welcome", [], function (exports_1, context_1) {
+System.register("Welcome", ["domein"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var Welcome;
+    var domein_1, Welcome;
     return {
-        setters: [],
+        setters: [
+            function (domein_1_1) {
+                domein_1 = domein_1_1;
+            }
+        ],
         execute: function () {
-            /**
-             * Created by mwrd02 on 12-04-17.
-             */
             Welcome = class Welcome {
                 constructor() {
-                    this.greeting = 'Welcome!';
+                    this.greeting = 'Welcome!' + new domein_1.Persoon('jan');
                     this.test = 1;
                 }
             };

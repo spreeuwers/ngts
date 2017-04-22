@@ -6,11 +6,14 @@
     "noImplicitAny": false,
     "outFile": "../dist/app.js"
   },
+
   "exclude": [
     "node_modules",
     "domein"
   ],
+
   "files": [
     "./initialize.ts"
   ]
+
 }
